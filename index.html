@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Mehak Rani - Visual & Experiential Designer">
+    <title>Mehak Rani | Portfolio</title>
+    <!-- Google Fonts: Inter for a clean, modern, minimal Bauhaus-inspired aesthetic -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Language Toggle and Navigation -->
+    <nav class="navbar">
+        <div class="logo">MR.</div>
+        <div class="nav-links">
+            <a href="#work" data-i18n="nav_work">Arbeiten</a>
+            <a href="#about" data-i18n="nav_about">Über mich</a>
+            <button id="lang-toggle" aria-label="Toggle Language">DE / EN</button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <h1 class="hero-title" data-i18n="hero_title">Hallo, ich bin Mehak Rani.</h1>
+        <p class="hero-subtitle" data-i18n="hero_subtitle">
+            Visueller-Experiential-Design-Masterstudentin mit Schwerpunkt auf Grafik- und Digitaldesign. <br>
+            Auf der Suche nach einem Design-Praktikum in Deutschland.
+        </p>
+    </header>
+
+    <!-- Main Content Area to be built out -->
+    <main>
+        <!-- Work Section -->
+        <section id="work" class="section work-section">
+            <h2 class="section-title" data-i18n="work_title">Ausgewählte Arbeiten</h2>
+            <p class="section-desc" data-i18n="work_desc">Klassenzimmer-Projekte, die den Designprozess von der
+                Konzeption bis zur Umsetzung zeigen.</p>
+
+            <div class="project-grid">
+                <!-- Project 1 -->
+                <a href="project-packaging.html" class="project-card">
+                    <div class="project-img placeholder-packaging"></div>
+                    <div class="project-info">
+                        <h3 data-i18n="proj_pack">Verpackungsdesign</h3>
+                        <span class="project-link" data-i18n="view_project">Projekt ansehen &rarr;</span>
+                    </div>
+                </a>
+
+                <!-- Project 2 -->
+                <a href="project-uiux.html" class="project-card">
+                    <div class="project-img placeholder-uiux"></div>
+                    <div class="project-info">
+                        <h3 data-i18n="proj_uiux">UI/UX Design</h3>
+                        <span class="project-link" data-i18n="view_project">Projekt ansehen &rarr;</span>
+                    </div>
+                </a>
+
+                <!-- Project 3 -->
+                <a href="project-poster.html" class="project-card">
+                    <div class="project-img placeholder-poster"></div>
+                    <div class="project-info">
+                        <h3 data-i18n="proj_poster">Plakatdesign</h3>
+                        <span class="project-link" data-i18n="view_project">Projekt ansehen &rarr;</span>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <!-- About / Resume Section -->
+        <section id="about" class="section about-section">
+            <h2 class="section-title" data-i18n="about_title">Über mich & Lebenslauf</h2>
+
+            <div class="about-grid">
+                <div class="about-summary">
+                    <p data-i18n="about_summary">
+                        Vertraut mit der Entwicklung von visuellen Konzepten, Layouts und grundlegenden
+                        Designsystemen...
+                    </p>
+                </div>
+
+                <div class="resume-block">
+                    <h3 data-i18n="exp_title">Berufserfahrung</h3>
+                    <div class="resume-item">
+                        <h4 data-i18n="exp_role1">Praktikantin Grafikdesign / Designassistent</h4>
+                        <span class="date" data-i18n="exp_date1">März 2014 - April 2025</span>
+                    </div>
+
+                    <h3 data-i18n="edu_title">Ausbildung</h3>
+                    <div class="resume-item">
+                        <h4 data-i18n="edu_degree1">Masterstudium in Visuellem & Experientiellem Design</h4>
+                        <p data-i18n="edu_uni1">Unitedworld Institute of Design, Ahmedabad</p>
+                        <span class="date" data-i18n="edu_date1">Jul 2025 - Aktuell</span>
+                    </div>
+                    <div class="resume-item">
+                        <h4 data-i18n="edu_degree2">Bachelor in Germanistik (Honours)</h4>
+                        <p data-i18n="edu_uni2">Universität Delhi, Delhi</p>
+                        <span class="date" data-i18n="edu_date2">Juli 2019 - Mai 2022</span>
+                    </div>
+                </div>
+
+                <div class="skills-block">
+                    <h3 data-i18n="skills_title">Technische Fähigkeiten</h3>
+                    <p data-i18n="skills_list">Adobe Photoshop, Adobe Illustrator, Adobe InDesign</p>
+
+                    <h3 data-i18n="lang_title">Sprachkenntnisse</h3>
+                    <p data-i18n="lang_list">Hindi (C1), Deutsch (B1), Englisch (B2)</p>
+
+                    <h3 data-i18n="hobbies_title">Hobbys</h3>
+                    <p data-i18n="hobbies_list">Malerei, Tanzen, Reisen, Kochen</p>
+
+                    <h3 data-i18n="cert_title">Zertifikate</h3>
+                    <p data-i18n="cert_list">Bachelorabschluss in Germanistik, IELTS</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Mehak Rani</p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
